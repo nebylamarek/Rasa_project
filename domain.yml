@@ -5,29 +5,27 @@ intents:
   - goodbye
   - affirm
   - deny
-  - mood_great
-  - mood_unhappy
+  - indeterminate
   - bot_challenge
 
 responses:
   utter_greet:
-  - text: "Hey! How are you?"
+  - text: "Hello! I am Mr. Nebyla's virtual assistent"
 
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
-
-  utter_did_that_help:
-  - text: "Did that help you?"
-
-  utter_happy:
-  - text: "Great, carry on!"
+  utter_ask:
+  - text: "Can i help you ?"
 
   utter_goodbye:
   - text: "Bye"
 
+  utter_affirm_help:
+  - text: "Ok, I am waiting for your tasks"
+
+  utter_deny_help:
+  - text: "Ok, please tell me a reason why don't you want to help?  ?"
+
   utter_iamabot:
-  - text: "I am a bot, created by."
+  - text: "I am a virtual assistent."
 
 session_config:
   session_expiration_time: 60
