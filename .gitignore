@@ -1,0 +1,5 @@
+.env
+# ignor directory with models
+/models
+# ignor graph
+index.html
