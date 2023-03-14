@@ -25,3 +25,15 @@
 #         dispatcher.utter_message(text="Hello World!")
 #
 #         return []
+
+from typing import Any, Text, Dict, List
+from rasa_sdk import Action
+
+class SaveReasonTotxt(Action):
+ 
+   def name(self) -> Text:
+      return "SaveReasonTotxt"
+   
+   def save_to_txt():
+      pass
+   

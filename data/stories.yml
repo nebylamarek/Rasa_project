@@ -2,19 +2,20 @@ version: "3.1"
 
 stories:
 
-- story: conversation affirm
+- story: how_to_get_started, conversation affirm
   steps:
-  - intent: greet
+  - intent: how_to_get_started
   - action: utter_greet
   - action: utter_ask
   - intent: affirm
   - action: utter_affirm_help
 
-- story: conversation deny
+- story: how_to_get_started, conversation deny
   steps:
-  - intent: greet
+  - intent: how_to_get_started
   - action: utter_greet
   - action: utter_ask
   - intent: deny
   - action: utter_deny_help
 
+ 

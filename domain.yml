@@ -7,10 +7,16 @@ intents:
   - deny
   - indeterminate
   - bot_challenge
+  - nlu_fallback
+  - how_to_get_started
+  - how_are_you
 
 responses:
   utter_greet:
   - text: "Hello! I am Mr. Nebyla's virtual assistent"
+
+  utter_get_started:
+  - text: "I can get information and sent email........ "
 
   utter_ask:
   - text: "Can i help you ?"
@@ -24,8 +30,17 @@ responses:
   utter_deny_help:
   - text: "Ok, please tell me a reason why don't you want to help?  ?"
 
+  utter_youarewelcome:
+  - text: "You're very welcome."
+
+  utter_default:
+  - text: "Sorry, I didn't get that, can you rephrase?"
+
   utter_iamabot:
   - text: "I am a virtual assistent."
+
+  utter_siting_on_the_server:
+  - text: "I am always happy, because I am sitting on the server and doing nothing."
 
 session_config:
   session_expiration_time: 60
