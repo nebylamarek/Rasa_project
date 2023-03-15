@@ -6,11 +6,13 @@ intents:
   - affirm
   - deny
   - indeterminate
+  - thankyou
   - bot_challenge
   - nlu_fallback
   - how_to_get_started
   - how_are_you
   - skills
+  - wrong_answer
 
 responses:
   utter_greet:

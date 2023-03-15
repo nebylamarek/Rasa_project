@@ -37,4 +37,8 @@ rules:
   steps:
   - intent: skills
   - action: utter_skills
-  
+
+- rule: wrong_answer
+  steps:
+  - intent: wrong_answer
+  - action: utter_fallback

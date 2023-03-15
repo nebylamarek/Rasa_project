@@ -100,4 +100,11 @@ nlu:
    - What is your tech stack ?
    - Which technologies are use ?
    - What is your programing experience ?
-   
+
+- intent: wrong_answer
+  examples: |
+   - I dont ask you this
+   - I dont get it 
+   - I dont understand
+   - What ?
+   - Why ? 
