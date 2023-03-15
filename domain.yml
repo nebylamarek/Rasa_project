@@ -10,6 +10,7 @@ intents:
   - nlu_fallback
   - how_to_get_started
   - how_are_you
+  - skills
 
 responses:
   utter_greet:
@@ -41,6 +42,10 @@ responses:
 
   utter_siting_on_the_server:
   - text: "I am always happy, because I am sitting on the server and doing nothing."
+
+  utter_skills:
+  - text: "I using Python, R, SQL, Tableau and I have basic experience with git"
+
 
 session_config:
   session_expiration_time: 60

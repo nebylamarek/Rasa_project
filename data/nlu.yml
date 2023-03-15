@@ -93,3 +93,11 @@ nlu:
     - How s things ?
     - whassup?
     - what s new ?
+
+- intent: skills
+  examples: |
+   - Tell me about your skills
+   - What is your tech stack ?
+   - Which technologies are use ?
+   - What is your programing experience ?
+   

@@ -30,3 +30,9 @@ rules:
   steps:
   - intent: how_are_you
   - action: utter_siting_on_the_server
+
+- rule: skils tech stack
+  steps:
+  - intent: skills
+  - action: utter_skills
+  
