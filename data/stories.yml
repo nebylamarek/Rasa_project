@@ -18,4 +18,14 @@ stories:
   - intent: deny
   - action: utter_deny_help
 
- 
+- story: i_dont_know
+  steps:
+  - intent: nlu_fallback
+  - action: utter_fallback
+  - intent: nlu_fallback
+  - action: utter_fallback_again
+
+- story: fallback
+  steps:
+    - intent: nlu_fallback
+    - action: utter_fallback

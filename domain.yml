@@ -34,8 +34,11 @@ responses:
   utter_youarewelcome:
   - text: "You're very welcome."
 
-  utter_default:
+  utter_fallback:
   - text: "Sorry, I didn't get that, can you rephrase?"
+
+  utter_fallback_again:
+  - text: "Sorry, I dont know, I going to send this ask to Mr. Nebyla"
 
   utter_iamabot:
   - text: "I am a virtual assistent."
