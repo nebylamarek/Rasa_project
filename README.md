@@ -11,8 +11,6 @@ This chatbot was built using [Rasa](https://rasa.com/docs/getting-started/).
 ### Getting Started
 Install [Rasa](https://rasa.com/docs/rasa/user-guide/installation/#installation).
 
-Or you can install python 3.8.4 and install libraries from requirements file.
-
 ### Visualisation
 [Graph](https://github.com/nebylamarek/Rasa_project/blob/master/graph.html)
 
