@@ -1,8 +1,10 @@
 # Chatbot based on rasa framework
 
 ### About
-A conversational assistant for comunications about my work skills and experiences. 
-Assistant is still in development, it's my long-term free time project.
+Conversation assistant is developed to communicate with recruiters,
+it can talk to you about my skills, experience or job preferences.
+
+The assistant is still in development, it's my long-term hobby project.
 
 This chatbot was built using [Rasa](https://rasa.com/docs/getting-started/).
 
