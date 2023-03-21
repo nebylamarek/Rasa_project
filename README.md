@@ -21,12 +21,12 @@ This graph visualizes the internal patterns and rules of communication.
 rasa train
 ```
 
-### Talk to chatbot
+### Talk to the chatbot
 ```
 rasa shell
 ```
 
-### Run chatbot integrated on a frontend site
+### Run the chatbot integrated on a frontend site
 [Frontend](https://github.com/nebylamarek/Rasa_project/blob/master/index.html)
 ```
 rasa run -m models --enable-api --cors "*"
