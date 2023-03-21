@@ -26,7 +26,7 @@ rasa train
 rasa shell
 ```
 
-### Run the chatbot integrated on a frontend site
+### Run the chatbot integrated into the frontend site
 [Frontend](https://github.com/nebylamarek/Rasa_project/blob/master/index.html)
 ```
 rasa run -m models --enable-api --cors "*"
