@@ -1,7 +1,7 @@
 # Chatbot based on rasa framework
 
 ### About
-Conversation assistant is developed to communicate with recruiters,
+Conversational assistant is being developed to communicate with recruiters,
 it can talk to you about my skills, experience or job preferences.
 
 The assistant is still in development, it's my long-term hobby project.
